@@ -1,0 +1,29 @@
+.SideChart {
+  width: 295px;
+  height: 180px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.SideChart__graph {
+  width: 310px;
+  height: 170px;
+}
+
+.SideChart__graph__months {
+  display: flex;
+  justify-content: center;
+}
+
+.SideChart__graph__months > p {
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.SideChart {
+  -moz-box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+  box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+}

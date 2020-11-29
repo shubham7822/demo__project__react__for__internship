@@ -1,3 +1,7 @@
+this is my assignment for an internship i had to create it with Ui and functionality in 48 hours
+
+in future i will goona update this app and make it responsive
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navbar } from "./components/NavBar/Navbar";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Lorem from "./components/Lorem/Lorem";
+import DashBoard from "./components/Dashboard/DashBoard";
+import NotificationsTab from "./components/Notification/NotificationTab";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='App'>
+        <Switch>
+          <Route path='/lorem'>
+            <div className='App__container'>
+              <Navbar className='App__nav' />
+              <Lorem />
+            </div>
+          </Route>
+          <Route path='/'>
+            <div className='App__container'>
+              <Navbar />
+              <div className='App__container__columns'>
+                <DashBoard />
+              </div>
+            </div>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

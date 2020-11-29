@@ -1,0 +1,25 @@
+.Inbox {
+  width: 325px;
+  height: 104px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.Inbox__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 104px;
+}
+
+.Inbox__heading {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(146, 146, 146, 1);
+}
+
+.Inbox__Number {
+  font-size: 40px;
+}

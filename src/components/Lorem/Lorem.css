@@ -1,0 +1,66 @@
+.Lorem {
+  height: 204px;
+  width: 1083px;
+  left: 393px;
+  top: 42px;
+  border-radius: 15px;
+  margin: 40px;
+  padding: 26px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.Lorem__Input {
+  height: 100px;
+  width: 1031px;
+  background: #fafafa;
+  border-radius: 15px;
+}
+
+.Lorem__TextInput {
+  width: 70%;
+  outline: none;
+  margin: 20px;
+  padding: 10px;
+  font-size: 17px;
+  background: #fafafa;
+  color: black;
+  border: none;
+}
+
+.Lorem__Buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.Lorem__share {
+  background: rgba(255, 108, 64, 1);
+  width: 180px;
+  color: white;
+  border-radius: 11px;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+}
+.Lorem__AttachIcon {
+  font-size: 30px !important;
+  transform: rotate(-30deg);
+  background: rgba(255, 196, 128, 1);
+  color: rgba(255, 108, 64, 1);
+  border-radius: 50%;
+  padding: 12px;
+}
+.Lorem__socialButtons {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+.Lorem__Cancle__btn {
+  background: transparent;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: rgba(239, 62, 54, 1);
+}

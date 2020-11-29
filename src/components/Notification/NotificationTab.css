@@ -1,0 +1,35 @@
+.Notification {
+  width: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  height: 650px;
+  background: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  margin-left: 5px;
+  position: relative;
+  font-family: "SF Pro Display";
+}
+
+.Notification__header__bar {
+  background-color: rgba(176, 176, 176, 0.07);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 17px;
+}
+
+.Notification__header__active {
+  font-size: 20px;
+}
+
+.Notification__header {
+  font-size: 20px;
+  color: rgba(176, 176, 176, 1);
+  left: 30px;
+}
+
+.Notification__column {
+  margin: 15px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}

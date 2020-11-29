@@ -1,0 +1,56 @@
+.Post {
+  width: 60vw;
+  height: 300px;
+  left: 393px;
+  top: 281px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.Post__header {
+  display: flex;
+  align-items: center;
+}
+
+.Post__teacher {
+  font-size: 22px;
+}
+
+.Post__Content {
+  margin: 10px 20px;
+}
+.Post__item {
+  margin: 10px 70px;
+  height: 90px;
+  font-size: 20px;
+}
+.Post__avatar {
+  margin: 10px;
+}
+
+.Comment__Section {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  background: #fafafa;
+}
+.Post__Comment {
+  background: #fafafa;
+  border: none;
+  height: 45px;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.Post_Comment__Avatar {
+  margin: 0 10px;
+}
+
+.Comment__Send {
+  margin: 0 10px;
+  font-size: 40px !important;
+  color: rgba(115, 61, 71, 1);
+  transform: rotate(-30deg);
+}

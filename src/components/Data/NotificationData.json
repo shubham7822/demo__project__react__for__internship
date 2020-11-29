@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Admin",
+    "topic": "Your faculty uploaded the syllabus",
+    "time": "3",
+    "color": "255,217,217,1"
+  },
+  {
+    "name": "Student",
+    "topic": "Your faculty uploaded the syllabus",
+    "time": "4",
+    "color": "217,255,225,1"
+  },
+  {
+    "name": "Teacher",
+    "topic": "Your faculty uploaded the syllabus",
+    "time": "3",
+    "color": "186,153,255,1"
+  }
+]

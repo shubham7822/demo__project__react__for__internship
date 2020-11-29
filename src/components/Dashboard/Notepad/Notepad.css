@@ -1,0 +1,51 @@
+.NotePad {
+  width: 400px;
+  height: 385px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-family: "SF Pro Display";
+  position: relative;
+  max-width: auto;
+}
+
+.NotePad_Para {
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-size: 30px;
+}
+
+.Notes__delete__btn {
+  color: rgba(240, 52, 52, 1);
+}
+.notes {
+  overflow: auto;
+  width: 400px;
+}
+.notes::-webkit-scrollbar {
+  display: none;
+}
+.NotePad__btn {
+  position: absolute;
+  bottom: 31px;
+  right: 38px;
+}
+
+.NotePad__AddBtn {
+  color: #ff6c40;
+  font-size: 48px !important;
+}
+
+.Modal__container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.Modal__input {
+  padding: 10px !important;
+  margin: 5px !important;
+}

@@ -1,0 +1,29 @@
+.ThisMonth {
+  width: 270px;
+  height: 125px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  -moz-box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+  box-shadow: 0 4px 4px rgba(15, 38, 242, 0.4);
+}
+
+.ThisMonth__Inside {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ThisMonth__head {
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(112, 112, 112, 1);
+  padding: 5px;
+}
+
+.rating {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #0f26f2;
+}

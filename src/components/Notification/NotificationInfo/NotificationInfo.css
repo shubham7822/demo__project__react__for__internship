@@ -1,0 +1,22 @@
+.NotificationInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.NotificationInfo__container {
+  padding: 5px;
+}
+
+.NotificationInfo__container__topic {
+  color: rgba(117, 111, 111, 1);
+}
+
+.NotificationInfo__container__time {
+  color: rgba(117, 111, 111, 1);
+}
+
+.NotificationInfo__container__name {
+  font-size: 16px;
+}

@@ -1,0 +1,53 @@
+:root {
+  --main-bg-color: #ff6c40;
+  --font-family: SF Pro Display;
+}
+
+.Side__Nav {
+  position: absolute;
+  width: 315px;
+  height: 1084px;
+  left: 0px;
+  top: 0px;
+  background: var(--main-bg-color);
+  color: white;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.Lorem__post {
+  margin-top: 100px;
+}
+.SideNav__link {
+  text-decoration: none;
+  color: white;
+}
+.SideNav__head {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 80px;
+}
+
+.SideNav__Icon {
+  margin: 0 10px;
+}
+.active {
+  position: absolute;
+  width: 315px;
+  height: 82px;
+  left: 0px;
+  top: 7px;
+  background: #ffc480;
+}
+.SideNav__Container {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

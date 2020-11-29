@@ -1,0 +1,23 @@
+.Notepad__Notes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: pre-line;
+  margin: 10px 0;
+}
+
+.Notepad__Notes > p {
+  margin-left: 5px;
+  color: rgba(146, 146, 146, 1);
+  font-size: 20px;
+}
+.Notepad__Notes__title {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.Notepad__Notes__content {
+  display: flex;
+  align-items: center;
+}
