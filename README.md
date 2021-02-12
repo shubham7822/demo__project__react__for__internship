@@ -1,6 +1,6 @@
 this is my assignment for an internship i had to create it with Ui and functionality in 48 hours
 
-in future i will goona update this app and make it responsive
+in future i will goona update it and make it responsive
 
 # Getting Started with Create React App
 
